@@ -29,23 +29,31 @@
             <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 titlediv">
                 <img src="images/bird.jpg" alt="鳥" class="img-responsive">
             </div>
-            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 titlediv">
+            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 titlediv">
                 <!-- table拿來垂直置中 -->
                 <table width="100%" height="100%">
-                    <tr><td>
-                        <input type="text" class="form-control" placeholder="搜尋" style="width:70%;height:50px;">
-                    </td></tr> 
+                    <tr>
+                        <td>
+                            <input type="text" class="form-control" placeholder="搜尋" style="width:90%;height:50px;">
+                        </td>
+                    </tr>
                 </table>
             </div>
             
-            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 titlediv" style="text-align:right;">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 titlediv" style="text-align:center;">
                 <!-- table拿來垂直置中 -->
-                <table width="100%" height="100%">
-                    <tr><td>
-                        <h2>登入/註冊</h2>
-                    </td></tr>
+                <table width="100%" height="100%" >
+                    <tr>
+                        <td>
+                            <a href="#"><h1 style="background-color:#FFFFFF;">登入</h1></a>
+                        </td>
+                        <td>
+                        <a href="#"><h1 style="background-color:#FFFFFF;">註冊</h1></a>
+                        </td>
+                    </tr>
                 </table>
             </div>
+            
             <!-- title -->
         </div>
             <!-- 身體 -->
@@ -89,7 +97,7 @@
 
 
         
-
+        
 
             <!-- 身體 -->
             <!-- 頁尾 -->
