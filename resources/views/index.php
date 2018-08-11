@@ -50,19 +50,47 @@
         </div>
             <!-- 身體 -->
         <div class="row" style="background-color:#AAFFEE;min-height:500px;">
-            <!-- <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="text-align:center;font-size:24px;">
-                <a href="#">刊登出售<a><br>
-                <a href="#">刊登收購<a><br>
-                <a href="#">家電(冰箱、電腦...)<a><br>
-                <a href="#">書籍<a><br>
+            
+            <div id="carousel-id" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+                    <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                    <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <!-- 外面margin用auto 裡面靠左 大小用33% 用途:平均分配 -->
+                        <div style="margin: auto;">
+                            <div style="float:left;width:33%; text-align: center"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/1.jpg"></div>
+                            <div style="float:left;width:33%; text-align: center"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/1.jpg"></div>
+                            <div style="float:right;width:33%; text-align: center"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/1.jpg"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div style="margin: auto;">
+                            <div style="float:left;width:33%; text-align: center"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/2.jpg"></div>
+                            <div style="float:left;width:33%; text-align: center"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/2.jpg"></div>
+                            <div style="float:right;width:33%; text-align: center"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/2.jpg"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div style="margin: auto;">
+                            <div style="float:left;width:33%; text-align: center"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/3.jpg"></div>
+                            <div style="float:left;width:33%; text-align: center"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/3.jpg"></div>
+                            <div style="float:right;width:33%; text-align: center"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/3.jpg"></div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
             
-            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                
-                
-
-            </div> -->
         </div>
+
+
+        
+
+
             <!-- 身體 -->
             <!-- 頁尾 -->
             
