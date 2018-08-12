@@ -84,87 +84,88 @@
                 </div>
                 <!-- /.navbar-collapse -->
             </nav>
-
-            
             <!-- title -->
             <!-- 商品類別 -->
             
             <table style="width:100%;text-align:center;">
-                <tr style="height:150px;">
-                    <?php
-                        for($i=1;$i<=7;$i++){
-                            echo "<td><img src=\"images/g$i.png\" class=\"img-fluid\"></td>";
-                        }
-                    ?>
-                </tr>
+            <tr style="height:150px;">
+                <?php
+                    for($i=1;$i<=7;$i++){
+                        echo "<td><img src=\"images/g$i.png\" class=\"img-fluid\"></td>";
+                    }
+                ?>
+            </tr>
             </table>
             
             <!-- 商品類別 -->
-            <div class="container-fluid" >
-                    <!-- 身體 -->
-                <div class="row" style="background-color:#AAFFEE;min-height:500px;">
-                    <?php for($i=1;$i<=2;$i++){?>
-                    <h1>最新上架</h1>
-                        <div id="carousel-id" class="carousel slide" data-ride="carousel" style="margin-bottom:30px;">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-id" data-slide-to="0" class=""></li>
-                                <li data-target="#carousel-id" data-slide-to="1" class=""></li>
-                                <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <!-- 外面margin用auto 裡面靠左 大小用33% 用途:平均分配 -->
-                                    <div style="margin:auto;width:90%;">
-                                        <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/1.jpg"></div>
-                                        <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/1.jpg"></div>
-                                        <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/1.jpg"></div>
-                                        <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/1.jpg"></div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div style="margin:auto;auto;width:90%;">
-                                        <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/2.jpg"></div>
-                                        <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/2.jpg"></div>
-                                        <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/2.jpg"></div>
-                                        <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/2.jpg"></div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div style="margin:auto;auto;width:90%;">
-                                        <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/3.jpg"></div>
-                                        <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/3.jpg"></div>
-                                        <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/3.jpg"></div>
-                                        <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/3.jpg"></div>
-                                    </div>
-                                </div>
+    <div class="container-fluid" >
+        <div class="row" style="background-color:green;">
+            
+        </div>
+            <!-- 身體 -->
+        <div class="row" style="background-color:#AAFFEE;min-height:500px;">
+            <?php for($i=1;$i<=2;$i++){?>
+            <h1>最新上架</h1>
+                <div id="carousel-id" class="carousel slide" data-ride="carousel" style="margin-bottom:30px;">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+                        <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <!-- 外面margin用auto 裡面靠左 大小用33% 用途:平均分配 -->
+                            <div style="margin:auto;width:90%;">
+                                <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/1.jpg"></div>
+                                <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/1.jpg"></div>
+                                <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/1.jpg"></div>
+                                <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/1.jpg"></div>
                             </div>
-                            <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                            <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
                         </div>
-                    <?php }?>
-                    
-                </div>
-
-
-                
-                
-
-                    <!-- 身體 -->
-                    <!-- 頁尾 -->
-                    <div class="row">
-                        <div class="col-xs-12" style="background-color:yellow;">
-                            <p class="copyright">
-                                Copyright © 2018 <a>大成股份有限公司.</a><br>
-                                #平台維護及規劃：BigCheng Liu and his classmate.<br>
-                                !連絡信箱:jsdigodsgpofaeo@gmail.com<br>
-                                $分機:0857<br>
-                                %業界名人參與開發：賈伯斯、比爾‧蓋茲、馬克·祖克柏
-
-                            </p>
+                        <div class="item">
+                            <div style="margin:auto;auto;width:90%;">
+                                <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/2.jpg"></div>
+                                <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/2.jpg"></div>
+                                <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/2.jpg"></div>
+                                <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/2.jpg"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div style="margin:auto;auto;width:90%;">
+                                <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/3.jpg"></div>
+                                <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/3.jpg"></div>
+                                <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/3.jpg"></div>
+                                <div style="float:left;width:25%; text-align: center"><img class="img-fluid" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/3.jpg"></div>
+                            </div>
                         </div>
                     </div>
-                    <!-- 頁尾 -->
+                    <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            <?php }?>
+            
+        </div>
+
+
+        
+        
+
+            <!-- 身體 -->
+            <!-- 頁尾 -->
+            <div class="row">
+                <div class="col-xs-12" style="background-color:yellow;">
+                    <p class="copyright">
+                        Copyright © 2018 <a>大成股份有限公司.</a><br>
+                        #平台維護及規劃：BigCheng Liu and his classmate.<br>
+                        !連絡信箱:jsdigodsgpofaeo@gmail.com<br>
+                        $分機:0857<br>
+                        %業界名人參與開發：賈伯斯、比爾‧蓋茲、馬克·祖克柏
+
+                    </p>
+                </div>
             </div>
+            <!-- 頁尾 -->
+    </div>
 
     
 </body>
