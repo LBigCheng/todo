@@ -153,7 +153,7 @@
                             平台維護及規劃：BigCheng Liu and his classmate.<br>
                             連絡信箱:DaCheng@bigcheng.com<br>
                             分機:0857<br>
-                            業界名人參與開發：賈伯斯、比爾‧蓋茲、馬克·祖克柏
+                            業界名人參與開發：賈伯斯、比爾‧蓋茲、馬克·祖克柏嗨
                          </code>
                     </div>
                 <!-- 頁尾 -->
