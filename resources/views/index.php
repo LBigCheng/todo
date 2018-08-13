@@ -22,7 +22,7 @@
         body { padding-top: 50px; }/* navbar-fixed-top會覆蓋到網頁 */
         
         .navbar{
-            background-color:green;
+            background-color:	#33CCFF;
         }
         
         .img-fluid{
@@ -102,7 +102,7 @@
 
             <!-- 身體 -->
             <div class="container-fluid">
-                <div class="row" style="background-color:#AAFFEE;min-height:50%;">
+                <div class="row" style="background-color:#DDDDDD;min-height:50%;">
                     <?php for($i=1;$i<=2;$i++){?>
                     <h1>最新上架</h1>
                         <div id="carousel-id" class="carousel slide" data-ride="carousel" style="margin-bottom:30px;">
@@ -145,10 +145,10 @@
                 </div>
             </div>
             <!-- 身體 -->
-            
+
                 <!-- 頁尾 -->
-                    <div class="col-xs-12" style="background-color:yellow;padding-left:10px;">
-                        <code style="background-color:yellow;color:blue;">
+                    <div class="col-xs-12" style="background-color:#00AA88;padding-left:10px;">
+                        <code style="background-color:#9999FF;color:blue;">
                             Copyright © 2018 <u>大成股份有限公司.</u><br>
                             平台維護及規劃：BigCheng Liu and his classmate.<br>
                             連絡信箱:DaCheng@bigcheng.com<br>
