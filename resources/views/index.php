@@ -85,6 +85,7 @@
                 <!-- /.navbar-collapse -->
             </nav>
             <!-- title -->
+
             <!-- 商品類別 -->
             
             <table style="width:100%;text-align:center;">
@@ -98,9 +99,10 @@
             </table>
             
             <!-- 商品類別 -->
-            <div class="container-fluid" >
-                    <!-- 身體 -->
-                <div class="row" style="background-color:#AAFFEE;min-height:500px;">
+
+            <!-- 身體 -->
+            <div class="container-fluid">
+                <div class="row" style="background-color:#AAFFEE;min-height:50%;">
                     <?php for($i=1;$i<=2;$i++){?>
                     <h1>最新上架</h1>
                         <div id="carousel-id" class="carousel slide" data-ride="carousel" style="margin-bottom:30px;">
@@ -140,30 +142,20 @@
                             <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
                         </div>
                     <?php }?>
-                    
                 </div>
-
-
-                
-                
-
-                    <!-- 身體 -->
-                    <!-- 頁尾 -->
-                    <div class="row">
-                        <div class="col-xs-12" style="background-color:yellow;">
-                            <p class="copyright">
-                                Copyright © 2018 <a>大成股份有限公司.</a><br>
-                                #平台維護及規劃：BigCheng Liu and his classmate.<br>
-                                !連絡信箱:jsdigodsgpofaeo@gmail.com<br>
-                                $分機:0857<br>
-                                %業界名人參與開發：賈伯斯、比爾‧蓋茲、馬克·祖克柏
-
-                            </p>
-                        </div>
-                    </div>
-                    <!-- 頁尾 -->
             </div>
-
-    
+            <!-- 身體 -->
+            
+                <!-- 頁尾 -->
+                    <div class="col-xs-12" style="background-color:yellow;padding-left:10px;">
+                        <code style="background-color:yellow;color:blue;">
+                            Copyright © 2018 <u>大成股份有限公司.</u><br>
+                            平台維護及規劃：BigCheng Liu and his classmate.<br>
+                            連絡信箱:DaCheng@bigcheng.com<br>
+                            分機:0857<br>
+                            業界名人參與開發：賈伯斯、比爾‧蓋茲、馬克·祖克柏
+                         </code>
+                    </div>
+                <!-- 頁尾 -->
 </body>
 </html>
