@@ -13,3 +13,4 @@
 
 Route::get('/', 'TaskController@index');
 
+Route::view('/registered', 'registered');

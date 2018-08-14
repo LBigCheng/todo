@@ -33,7 +33,7 @@
 </head>
 <body>
             <!-- title -->
-            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation" >
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -111,7 +111,7 @@
                                 <li data-target="#carousel-id" data-slide-to="1" class=""></li>
                                 <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
                             </ol>
-                            <div class="carousel-inner">
+                            <div class="carousel-inner" >
                                 <div class="item active">
                                     <!-- 外面margin用auto 裡面靠左 大小用33% 用途:平均分配 -->
                                     <div style="margin:auto;width:90%;">
