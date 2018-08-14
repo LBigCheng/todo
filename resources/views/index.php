@@ -12,7 +12,7 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     
 
-    <title>首頁</title>
+    <title>不要啊</title>
 
     <style>
         .titlediv{
